@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23750443.svg)](https://doi.org/10.5281/zenodo.23750443)
 
+Hyunwoo Kim, Heonhui Lee — Department of Intellectual Property Convergence, Graduate School, Gyeongsang National University
+
 같은 설정으로 학습한 신경망이 같은 가중치를 갖는지를 측정하는 재현 실험입니다.
 작은 신경망을 처음부터 학습하여 학습 설정, 예측(기능), 가중치 수치 사이의 관계를 측정합니다.
 명령줄 스크립트와 PyQt6 데스크톱 앱이 함께 들어 있으며, GPU 없이 CPU에서 약 10~15초면 전체 실험이 끝납니다.
