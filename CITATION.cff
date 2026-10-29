@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Weight·Expression Lab: Same recipe, different weights"
+abstract: >-
+  A reproducible experiment that trains a small neural network (MLP 64-128-10) on the
+  scikit-learn digits dataset from scratch and measures the relationship between training
+  settings, predictions, and weight values. Experiment A varies hidden size and learning rate;
+  experiment B fixes the settings and varies the random seed, comparing weights by cosine
+  similarity before and after hidden-unit permutation and ReLU rescaling alignment;
+  experiment C permutes the hidden units of one trained model. Includes a command-line
+  script and a PyQt6 desktop application.
+authors:
+  - family-names: Kim
+    given-names: Hyunwoo
+    affiliation: "Department of Intellectual Property Convergence, Graduate School, Gyeongsang National University"
+  - family-names: Lee
+    given-names: Heonhui
+version: "1.0"
+date-released: "2026-10-29"
+license: MIT
+repository-code: "https://github.com/hwkim-gnu/weight-expression-exp"
+keywords:
+  - neural network weights
+  - permutation symmetry
+  - cosine similarity
+  - reproducibility
+  - scikit-learn
