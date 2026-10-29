@@ -1,5 +1,7 @@
 # Weight·Expression Lab — 같은 레시피, 다른 가중치
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23750443.svg)](https://doi.org/10.5281/zenodo.23750443)
+
 같은 설정으로 학습한 신경망이 같은 가중치를 갖는지를 측정하는 재현 실험입니다.
 작은 신경망을 처음부터 학습하여 학습 설정, 예측(기능), 가중치 수치 사이의 관계를 측정합니다.
 명령줄 스크립트와 PyQt6 데스크톱 앱이 함께 들어 있으며, GPU 없이 CPU에서 약 10~15초면 전체 실험이 끝납니다.
@@ -182,6 +184,17 @@ python app.py
 | Fort, S., Hu, H., & Lakshminarayanan, B. (2019). Deep ensembles: A loss landscape perspective. arXiv:1912.02757. | 무작위 초기값이 다르면 서로 다른 해(mode)에 도달함을 보고, 가중치 비교에 코사인 유사도를 사용 · 실험 B |
 | Entezari, R., Sedghi, H., Saukh, O., & Neyshabur, B. (2022). The role of permutation invariance in linear mode connectivity of neural networks. *ICLR 2022*. | 순서 대칭성을 고려하면 독립적으로 학습된 해들 사이의 선형 보간 장벽이 사라질 가능성이 높다는 추측을 제시하고 실험으로 검토 · 실험 B·C |
 | Ainsworth, S. K., Hayase, J., & Srinivasa, S. (2023). Git Re-Basin: Merging models modulo permutation symmetries. *ICLR 2023*. | 한 모델의 은닉 유닛 순서를 기준 모델에 맞추는 정렬 알고리즘을 제시, 독립적으로 학습된 ResNet(CIFAR-10)에 적용 · 실험 B·C |
+
+## 인용
+
+| 대상 | DOI |
+|---|---|
+| v1.0 (이 버전) | [10.5281/zenodo.23750443](https://doi.org/10.5281/zenodo.23750443) |
+| 모든 버전 (항상 최신 버전으로 연결) | [10.5281/zenodo.23750442](https://doi.org/10.5281/zenodo.23750442) |
+
+> Kim, H., & Lee, H. (2026). *Weight·Expression Lab: Same recipe, different weights* (Version v1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23750443
+
+인용 정보는 [`CITATION.cff`](CITATION.cff)에도 있습니다.
 
 ## 라이선스
 

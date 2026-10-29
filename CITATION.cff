@@ -17,6 +17,14 @@ authors:
   - family-names: Lee
     given-names: Heonhui
 version: "1.0"
+doi: 10.5281/zenodo.23750443
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23750443
+    description: "Version 1.0"
+  - type: doi
+    value: 10.5281/zenodo.23750442
+    description: "All versions (concept DOI)"
 date-released: "2026-10-29"
 license: MIT
 repository-code: "https://github.com/hwkim-gnu/weight-expression-exp"
